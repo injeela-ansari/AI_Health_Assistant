@@ -36,11 +36,11 @@ def load_all_models():
     base_path = '/content/'
 
     model_paths = {
-        "diabetes": os.path.join(base_path, '/content/diabetes_model.pkl'),
-        "heart": os.path.join(base_path, '/content/heart_disease_model.pkl'),
-        "liver": os.path.join(base_path, '/content/liver_disease_model.pkl'),
-        "obesity": os.path.join(base_path, '/content/obesity_model.pkl'),
-        "insurance": os.path.join(base_path, '/content/insurance_model.pkl'),
+        "diabetes": os.path.join(base_path, '/content/models/diabetes_model.pkl'),
+        "heart": os.path.join(base_path, '/content/models/heart_disease_model.pkl'),
+        "liver": os.path.join(base_path, '/content/models/liver_disease_model.pkl'),
+        "obesity": os.path.join(base_path, '/content/models/obesity_model.pkl'),
+        "insurance": os.path.join(base_path, '/content/models/insurance_model.pkl'),
     }
 
     models = {}
