@@ -36,11 +36,11 @@ def load_all_models():
     base_path = '/content/'
 
     model_paths = {
-        "diabetes": os.path.join(base_path, 'diabetes_model.pkl'),
-        "heart": os.path.join(base_path, 'heart_disease_model.pkl'),
-        "liver": os.path.join(base_path, 'liver_disease_model.pkl'),
-        "obesity": os.path.join(base_path, 'obesity_model.pkl'),
-        "insurance": os.path.join(base_path, 'insurance_model.pkl'),
+        "diabetes": os.path.join(base_path, '/content/diabetes_model.pkl'),
+        "heart": os.path.join(base_path, '/content/heart_disease_model.pkl'),
+        "liver": os.path.join(base_path, '/content/liver_disease_model.pkl'),
+        "obesity": os.path.join(base_path, '/content/obesity_model.pkl'),
+        "insurance": os.path.join(base_path, '/content/insurance_model.pkl'),
     }
 
     models = {}
@@ -99,7 +99,6 @@ st.markdown("""
 if page == "🏠 Home & Symptom Checker":
     st.title("Welcome to Your AI Personal Health Assistant 👋")
     st.markdown("This tool is designed to help you understand your health better. Please select a feature from the navigation bar.")
-    st.image("https://cdn.dribbble.com/users/3358580/screenshots/14299998/media/b174092453f7c468e81881763750e309.gif", use_container_width=True)
 
     st.header("Symptom Checker & Recommender")
     st.markdown("Select your primary symptom to get potential reasons and remedies. **This is not a substitute for professional medical advice.**")
