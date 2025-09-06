@@ -1,0 +1,9 @@
+streamlit
+pandas
+scikit-learn
+numpy
+joblib
+Pillow
+torch --extra-index-url https://download.pytorch.org/whl/cpu
+torchvision --extra-index-url https://download.pytorch.org/whl/cpu
+torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
